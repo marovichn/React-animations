@@ -14,12 +14,12 @@
 }
 
 /*entering*/
-.fade-slide-enter-active {
+.ModalOpen {
   animation: openModal 0.5s ease-in-out forwards;
 }
 
 /*exiting*/
-.fade-slide-exit-active {
+.ModalClosed {
   animation: closeModal 700ms ease-in-out forwards;
 }
 
