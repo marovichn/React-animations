@@ -13,12 +13,14 @@
   transition: all 0.5s ease-out;
 }
 
-.ModalOpen {
+/*entering*/
+.fade-slide-enter-active {
   animation: openModal 0.5s ease-in-out forwards;
 }
 
-.ModalClosed {
-  animation: closeModal 1s ease-in-out forwards;
+/*exiting*/
+.fade-slide-exit-active {
+  animation: closeModal 700ms ease-in-out forwards;
 }
 
 @keyframes openModal {
