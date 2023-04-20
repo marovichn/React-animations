@@ -5,6 +5,7 @@ body {
 }
 
 .Button {
+  margin: auto 5px;
   border: 1px solid #521751;
   font: inherit;
   padding: 8px;
